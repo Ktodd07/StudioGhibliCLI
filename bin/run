@@ -2,10 +2,4 @@
 
 require_relative '../lib/cli_project'
 
-require 'json'
-require 'pry'
-require 'rest-client'
-require 'net/http'
-require 'colorize'
-
-CliProject::CLI.new.start
+CLI.new.start
