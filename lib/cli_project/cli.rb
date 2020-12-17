@@ -1,4 +1,4 @@
-class CliProject::CLI
+class CLI
 
     def start
         API.get_data
