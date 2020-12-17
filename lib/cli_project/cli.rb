@@ -38,6 +38,7 @@ class CLI
                 puts ""
             elsif input == "list"
                 film_list
+                puts "Please enter the number (1-20) of the film you would like to know more about. Otherwise, enter [exit] to end the program: "
             elsif input != "exit"
                 invalid
             else
